@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>gallery-viewparent</title>
+    <script src="/build/yui/yui.js"></script>
+    <script src="/build/gallery-viewparent/gallery-viewparent-coverage.js"></script>
+    <script src="js/basic.js"></script>
+    <script src="js/methods.js"></script>
+    <meta charset="utf-8" />
+</head>
+<body class="yui3-skin-sam">
+<div id="logger"></div>
+
+<script>
+YUI({
+    coverage: ["gallery-viewparent"],
+    filter: (window.location.search.match(/[?&]filter=([^&]+)/) || [])[1] || "raw"
+}).use("test-console", "test", "basic-tests", "method-tests", function(Y) {
+    
+    (new Y.Test.Console()).render("#logger");
+
+    Y.Test.Runner.setName("gallery-viewparent");
+    Y.Test.Runner.run();
+});
+</script>
+</body>
+</html>

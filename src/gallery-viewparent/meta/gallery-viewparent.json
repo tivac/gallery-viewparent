@@ -1,0 +1,8 @@
+{
+    "gallery-viewparent": {
+        "requires": [
+            "yui-base",
+            "event-custom-base"
+        ]
+    }
+}

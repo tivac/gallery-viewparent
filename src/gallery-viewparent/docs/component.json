@@ -1,0 +1,11 @@
+{
+    "name"       : "gallery-viewparent",
+    "displayName": "Gallery: gallery-viewparent",
+    "description": "*Summary Goes Here*",
+    "author"     : [ "Tivac" ],
+    "use"        : [ "gallery-viewparent" ],
+
+    "tags": [ "gallery" ],
+
+    "examples": []
+}

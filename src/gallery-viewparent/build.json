@@ -1,0 +1,10 @@
+{
+    "name": "gallery-viewparent",
+    "builds": {
+        "gallery-viewparent": {
+            "jsfiles": [
+                "js/gallery-viewparent.js"
+            ]
+        }
+    }
+}
